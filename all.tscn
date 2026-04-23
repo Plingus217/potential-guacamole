@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://co6iwtwx343ug"]
+
+[ext_resource type="PackedScene" uid="uid://cbfg35sxrv70t" path="res://kuyf.tscn" id="1_mgfvq"]
+[ext_resource type="PackedScene" uid="uid://dsq7lcuny4piq" path="res://node_2d.tscn" id="2_hit78"]
+[ext_resource type="PackedScene" uid="uid://btqm55rwxd6dr" path="res://groundig.tscn" id="3_omw0r"]
+
+[node name="Node2D" type="Node2D" unique_id=863278164]
+
+[node name="Kuyf" parent="." unique_id=1082103972 instance=ExtResource("1_mgfvq")]
+position = Vector2(278, -231)
+
+[node name="Node2D2" parent="." unique_id=1090498195 instance=ExtResource("3_omw0r")]
+position = Vector2(5, -2)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1746599726]
+position = Vector2(15, -180)
+
+[node name="Node2D" parent="." unique_id=1657280229 instance=ExtResource("2_hit78")]
+position = Vector2(-225, -336)
